@@ -1,0 +1,191 @@
+
+
+body {
+    background: url(reeftankimages/white_wave.png) repeat;
+    font-family:  Ubuntu, Arial, Helvetica, sans-serif;
+    }
+
+/*-----Future project: Get better understanding of how full background images work.-----*/
+.indexbackground {
+        background-image: url("reeftankimages/fish_blurred.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 1600px;
+        }
+        
+
+/*------ #4898D3 is the logo blue color ----- */
+a   {
+    font-weight: 500;
+    text-decoration: none;
+    color:#4898D3;
+    }
+    
+    
+.header a {
+        color: #FFFFFF;
+        }
+
+
+/*------ #33ED1F is bright green ----- */
+a:visited {
+        color: #33ED1F;
+        }
+
+
+.header {
+        position: absolute;
+        z-index: 1;
+        width: 1100px;
+        top: 40px;
+        margin-left:20px;
+        display: inline-block;
+        vertical-align: top;
+        }
+        
+
+.logo   {
+        width: 25%;
+        margin: 5px 0px 5px 30px;
+        display: inline-block;
+        opacity: .8;
+        }
+        
+
+.nav    {
+        width: 70%;
+        margin: 0px 5px 5px 5px;
+        display: inline-block;
+        }
+    
+    
+li     {
+        padding: 0px 2px 0px 2px;
+        }
+        
+
+.nav li{
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: .05em;
+        padding: 0px 10px 0px 10px;
+        text-align: center;
+        display: inline-block;
+        
+        }  
+
+/*------ The rgba color combo is transparent grey ----- */
+.nav li:hover {
+    background-color: rgba(169, 169, 167, 0.5);
+    padding: 5px 15px 5px 15px;
+    }
+    
+    
+.subheader {
+        position: relative;
+        width:550px;
+        height: 1.5em;
+        z-index: 2;
+        margin: 150px 40px 250px 58px;
+        text-align: center;
+        background-color: #ED2D09;
+        }    
+    
+
+/*------ #78C8E3 is sky blue ----- */
+.textbox  {
+        width: 45%;
+        background-color: #78C8E3;
+        text-align: left;
+        margin-left:25%;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-shadow: 10px 10px 5px #C2C4C4;
+        }
+        
+        
+.roguephoto {
+    width: 95%;
+    margin:10px 0px 20px 10px;
+    }
+
+         
+.form {
+    text-align: left;
+    line-height: 1.2;
+    letter-spacing:.05em;
+    color:#FFFFFF;
+    padding: 0px 25px 30px 10px;
+    border-radius: 5px;
+    }
+    
+    
+.iframe {
+      width: 97%;
+      background-color: #78C8E3;
+      margin: 10px;
+      text-align:center;
+      }     
+
+
+h1  {
+    font-size: 180%;
+    font-weight: 100;
+    line-height: 1.1;
+    letter-spacing: .05em;
+    color: #FFFFFF;
+    padding: 10px 5px 10px 10px;
+    text-align: left;
+    }
+
+   
+ h3  {
+    font-size: 100%;
+    line-height: 110%;
+    letter-spacing: .05em;
+    color: #FFFFFF;
+    padding-top:3px;
+    }
+
+h4  {
+    font-size: 110%;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: .1em;
+    color: #FFFFFF;
+    padding: 0px 50px 0px 10px;
+    margin-top: 0em;
+    margin-bottom: .35em;
+    }
+
+p   {
+    font-size: 100%;
+    font-weight: 100;
+    line-height: 115%;
+    letter-spacing: .12em;
+    color: #FFFFFF;
+    padding:0px 50px 0px 10px;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    }
+
+
+#container {
+	text-align: justify;
+	}
+	
+#container > div {
+	display: inline-block;
+	vertical-align: top;
+    }
+
+#container:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+    }
+
+#container > div > img {
+    width:260px;
+    }  
+ 
